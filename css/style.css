@@ -1,0 +1,59 @@
+body {
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  font-family: "Jost", sans-serif;
+}
+
+.container {
+  width: 95%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+nav {
+  opacity: 1;
+}
+
+.btn-contact {
+  padding-left: 50%;
+}
+.navbar-brand {
+  padding-left: 80px;
+  padding-right: 90px;
+  opacity: 1;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+  border: none;
+}
+
+#navbarNav {
+  margin-left: 100px;
+}
+
+.offcanvas-body {
+  opacity: 0.7;
+}
+.offcanvas-body ul li {
+  padding-left: 20px;
+}
+
+.offcanvas-header {
+  background-color: black;
+}
+
+.image-header img {
+  opacity: 1;
+}
+
+.test {
+  background-color: rgba(0, 0, 0, 0.7);
+}
